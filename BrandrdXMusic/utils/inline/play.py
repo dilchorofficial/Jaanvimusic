@@ -72,7 +72,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
             ),
            
         ],
-        [InlineKeyboardButton(text="🥂  ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥂", url=f"https://t.me/Jaanvi_music_robot?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")],
+        [InlineKeyboardButton(text="🥂  ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥂", url=f"https://t.me/MAHI_X_MUSIC_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
     return buttons
@@ -88,12 +88,7 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
-            InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/Vip_chor"
-            ),
-            InlineKeyboardButton(
-                text="🥀 ᴄʜᴀᴛ 🥀", url=f"https://t.me/+SFB9vAp52SAxZGE1"
-            ),
+            
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
@@ -111,7 +106,8 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 text=_["P_B_2"],
                 callback_data=f"brandedPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
-        ],
+     [InlineKeyboardButton(text="🥂  ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥂", url=f"https://t.me/MAHI_X_MUSIC_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")],
+    ],
         [
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"],
@@ -243,12 +239,8 @@ def stream_markup2(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
 [
-            InlineKeyboardButton(
-                text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"https://t.me/Vip_chor"
-            ),
-            InlineKeyboardButton(
-                text="🥀 ᴄʜᴀᴛ 🥀", url=f"https://t.me/+SFB9vAp52SAxZGE1"
-            ),
+            [InlineKeyboardButton(text="🥂  ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🥂", url=f"https://t.me/MAHI_X_MUSIC_BOT?startgroup=s&admin=delete_messages+manage_video_chats+pin_messages+invite_users")],
+ 
         ],
 
         [
