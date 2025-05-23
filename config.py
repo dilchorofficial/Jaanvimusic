@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7096580515"))
+OWNER_ID = int(getenv("OWNER_ID", "7745362209"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/dilchorofficial/Jaanvimusic",
+    "https://github.com/anujjjjjjjjjj/ANURAG",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 API_KEY = getenv("API_KEY", '30DxNexGenBots938b57') # youtube song api ke
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TEAM_CHOR")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+v40WYcSPzpU2Y2Y1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/All_super_music")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+eHFajV5LgJ81ZjRl")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -92,15 +92,15 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/7lr02w.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/gjbdmi.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/7lr02w.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/gjbdmi.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/b61227af05544deb76a34.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/b61227af05544deb76a34.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/923c1faac33d8c70335dc.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6c66f8b192532fe758e82.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/gjbdmi.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/gjbdmi.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/gjbdmi.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/gjbdmi.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/ebc4dc6357be06e08a3ed.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/d339f390ec168c19879c6.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/ee0cd53ab73f08f4a3627.jpg"
