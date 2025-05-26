@@ -10,7 +10,7 @@ def botplaylist_markup(_):
             ),
         ],
         [
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" 𝐂𝐋𝐎𝐒𝐄 "),
         ],
     ]
     return buttons
@@ -23,7 +23,7 @@ def top_play_markup(_):
         [InlineKeyboardButton(text=_["PL_B_11"], callback_data="SERVERTOP user")],
         [
             InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data="get_playmarkup"),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" 𝐂𝐋𝐎𝐒𝐄 "),
         ],
     ]
     return buttons
@@ -37,7 +37,7 @@ def get_playlist_markup(_):
         ],
         [
             InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data="home_play"),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" 𝐂𝐋𝐎𝐒𝐄 "),
         ],
     ]
     return buttons
@@ -50,7 +50,7 @@ def top_play_markup(_):
         [InlineKeyboardButton(text=_["PL_B_11"], callback_data="SERVERTOP Personal")],
         [
             InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data="get_playmarkup"),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" 𝐂𝐋𝐎𝐒𝐄 "),
         ],
     ]
     return buttons
@@ -63,7 +63,7 @@ def failed_top_markup(_):
                 text=_["BACK_BUTTON"],
                 callback_data="get_top_playlists",
             ),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" 𝐂𝐋𝐎𝐒𝐄 "),
         ],
     ]
     return buttons
@@ -85,7 +85,7 @@ def warning_markup(_):
                 ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬",
+                    callback_data=" 𝐂𝐋𝐎𝐒𝐄 ",
                 ),
             ],
         ]
@@ -99,7 +99,7 @@ def close_markup(_):
             [
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
-                    callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬",
+                    callback_data=" 𝐂𝐋𝐎𝐒𝐄 ",
                 ),
             ]
         ]

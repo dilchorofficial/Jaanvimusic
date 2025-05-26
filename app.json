@@ -1,7 +1,7 @@
 {
-    "name": "˹ 𝐉𝐀𝐀𝐍𝐕𝐈 ♡ 𝐌𝐔𝐒𝐈𝐂˼♪࿐ [NO ADS]",
+    "name": "ANURAG",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://files.catbox.moe/hz1qvh.jpg",
+    "logo": "https://files.catbox.moe/q13yle.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
+        "value": "7745362209",
         "required": true
       },
       "STRING_SESSION": {
@@ -54,7 +54,7 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
-        "value": "",
+        "value": "-1002664337527",
         "required": true
       }
     },

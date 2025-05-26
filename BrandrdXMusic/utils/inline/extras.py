@@ -7,7 +7,7 @@ def botplaylist_markup(_):
     buttons = [
         [
             InlineKeyboardButton(text=_["S_B_9"], url=SUPPORT_CHAT),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="🍬 𝐂𝐋𝐎𝐒𝐄 🍬"),
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=" 𝐂𝐋𝐎𝐒𝐄 "),
         ],
     ]
     return buttons
@@ -18,7 +18,7 @@ def close_markup(_):
         [
             [
                  InlineKeyboardButton(
-                text="🍹 𝐒𝐔𝐏𝐏𝐎𝐑𝐓🍹", url=f"https://t.me/+SFB9vAp52SAxZGE1"
+                text=" 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 ", url=f"https://t.me/Sweet_chat_aao"
             ),
                 InlineKeyboardButton(
                     text=_["CLOSE_BUTTON"],
