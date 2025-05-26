@@ -11,13 +11,13 @@ from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://files.catbox.moe/hz1qvh.jpg",
+        photo=f"https://files.catbox.moe/q7h4nt.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🍹𝐒𝐎𝐔𝐑𝐂𝐄🍹𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🍹𝐒𝐎𝐔𝐑𝐂𝐄🍹", url=f"https://github.com/vipin-kumar735/Dilchor"
+                        "🍹𝐒𝐎𝐔𝐑𝐂𝐄🍹", url=f"@ANURAGMOD"
                     )
                 ]
             ]
@@ -34,7 +34,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🍹𝐒𝐎𝐔𝐑𝐂𝐄🍹", url=f"https://github.com/vipin-kumar735/Dilchor"
+                        "🍹𝐒𝐎𝐔𝐑𝐂𝐄🍹", url=f"@ANURAGMOD"
                     )
                 ]
             ]
@@ -68,7 +68,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Jaanvi_music_robot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @MAHI_X_MUSIC_BOT`**"
         )
         return
 
