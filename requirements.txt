@@ -30,7 +30,6 @@ httpx==0.25.2
 lyricsgenius
 spotipy
 SafoneAPI
-yt-dlp[default]
 youtube_search
 youtube-search-python
 googlesearch-python
