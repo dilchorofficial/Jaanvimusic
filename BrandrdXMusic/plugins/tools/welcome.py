@@ -110,7 +110,7 @@ async def greet_group(_, member: ChatMemberUpdated):
 async def bot_wel(_, message):
     for u in message.new_chat_members:
         if u.id == app.me.id:
-            await app.send_message(LOG_CHANNEL_ID, f"" "
+            await app.send_message(LOG_CHANNEL_ID, f""
 NEW GROUP
 ➖➖➖➖➖➖➖➖➖➖➖
 𝗡𝗔𝗠𝗘: {message.chat.title}
