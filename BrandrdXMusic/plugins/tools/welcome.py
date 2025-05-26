@@ -112,9 +112,9 @@ async def bot_wel(_, message):
         if u.id == app.me.id:
             await app.send_message(LOG_CHANNEL_ID, f""
 NEW GROUP
-➖➖➖➖➖➖➖➖➖➖➖
+
 𝗡𝗔𝗠𝗘: {message.chat.title}
 𝗜𝗗: {message.chat.id}
 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄: @{message.chat.username}
-➖➖➖➖➖➖➖➖➖➖➖
+
 """)
