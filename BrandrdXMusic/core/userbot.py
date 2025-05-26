@@ -71,7 +71,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DIL_KI_BATE_o")
+                await self.one.join_chat("Sweet_chat_aao")
                 await self.one.join_chat("Anurag_bhai_op")
                 await self.one.join_chat("All_super_music")
                 await self.one.join_chat("ANURAG_ABOUT")
@@ -101,7 +101,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("DIL_KI_BATE_o")
+                await self.two.join_chat("Sweet_chat_aao")
                 await self.two.join_chat("Anurag_bhai_op")
                 await self.two.join_chat("All_super_music")
                 await self.two.join_chat("ANURAG_ABOUT")
@@ -125,7 +125,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("DIL_KI_BATE_o")
+                await self.three.join_chat("Sweet_chat_aao")
                 await self.three.join_chat("Anurag_bhai_op")
                 await self.three.join_chat("All_super_music")
                 await self.three.join_chat("ANURAG_ABOUT")
@@ -148,7 +148,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("DIL_KI_BATE_o")
+                await self.four.join_chat("Sweet_chat_aao")
                 await self.four.join_chat("Anurag_bhai_op")
                 await self.four.join_chat("All_super_music")
                 await self.four.join_chat("ANURAG_ABOUT")
@@ -171,7 +171,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("DIL_KI_BATE_o")
+                await self.five.join_chat("Sweet_chat_aao")
                 await self.five.join_chat("Anurag_bhai_op")
                 await self.five.join_chat("All_super_music")
                 await self.five.join_chat("ANURAG_ABOUT")
