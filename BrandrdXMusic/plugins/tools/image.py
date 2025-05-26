@@ -38,7 +38,7 @@ async def google_img_search(client: Client, message: Message):
     count = 0
     for img in lst:
         count += 1
-        await msg.edit(f"=> ᴄʜᴏʀ owo scrapped images {count}")
+        await msg.edit(f"=> ANURAG owo scrapped images {count}")
 
     try:
         await app.send_media_group(
