@@ -86,17 +86,15 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption=f"""
-🇼𝐄𝐋𝐂❍𝐌𝐄 {member.chat.title}
-┏━━━━━━━━━━━━━━
+𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 {member.chat.title}
+➖➖➖➖➖➖➖➖➖➖➖
 ๏ 𝗡𝗔𝗠𝗘 ➠ {user.mention}
 ๏ 𝗜𝗗 ➠ {user.id}
 ๏ 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 ➠ @{user.username}
-┗━━━━━━━━━━━━━━
-┏━━━━━━━━━━━━━━
-आपका स्वागत करने हम सब मिलकर आये हैं चेहरे पर मुस्कान और हाथों में फूलों की माला लाये है
-┗━━━━━━━━━━━━━━
+๏ 𝐌𝐀𝐃𝐄 𝐁𝐘 ➠ [🦋](https://t.me/ANURAGMOD)
+➖➖➖➖➖➖➖➖➖➖➖
 """,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f" 𝐀𝐃𝐃 𝐌𝐄", url=f"https://t.me/MAHI_X_MUSIC_BOT?startgroup=true")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"𝐀𝐃𝐃 𝐌𝐄", url=f"https://t.me/MAHI_X_MUSIC_BOT?startgroup=true")]])
         )
     except Exception as e:
         LOGGER.error(e)
@@ -110,11 +108,11 @@ async def greet_group(_, member: ChatMemberUpdated):
 async def bot_wel(_, message):
     for u in message.new_chat_members:
         if u.id == app.me.id:
-            await app.send_message(LOG_CHANNEL_ID, f""
+            await app.send_message(LOG_CHANNEL_ID, f"""
 NEW GROUP
-_________
+➖➖➖➖➖➖➖➖➖➖➖
 𝗡𝗔𝗠𝗘: {message.chat.title}
 𝗜𝗗: {message.chat.id}
 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄: @{message.chat.username}
-_________
+➖➖➖➖➖➖➖➖➖➖➖
 """)
